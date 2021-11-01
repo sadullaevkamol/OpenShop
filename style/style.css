@@ -156,6 +156,102 @@
 
 .header__feautures-title:hover {
     text-decoration-line: underline !important;
+    color: var(--primary-color);
 }
 
+.header__feautures-droplink:hover {
+    color: var(--primary-color);
+}
+
+.header__feautures-menu {
+    width: 300px;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.header__feautures-link:hover {
+    color: var(--primary-color);
+}
+
+
+.dropdown-menu {
+    min-width: 80px !important;
+    border-radius: 0;
+    text-align: center;
+    padding: 5px 12px;
+}
+
+.hedaer__nav-droplink {
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    letter-spacing: 0.05em;
+    font-family: var(--notosans-regular);
+    color: var(--primary-color);
+}
+
+.hedaer__nav-link:hover {
+    
+}
+
+.dop {
+    color: #ABABAB;
+}
+
+
+
+.header__slider-title {
+    font-size: 48px;
+    line-height: 70px;
+    /* or 146% */
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-family: var(--notosans-semibold);
+}
+
+.header__slider-link {
+    margin-top: 120px;
+    display: inline-block;
+    padding: 12px 46px;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    font-size: 18px;
+    line-height: 25px;
+    font-family: var(--notosans-regular);
+    text-transform: uppercase; 
+    transition: 0.5s;
+}
+
+.header__slider-link:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.header__slider-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.carousel-indicators [data-bs-target] {
+    display: inline-block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #ABABAB;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.carousel-indicators [data-bs-target]:nth-of-type(1) {
+    margin-right: 25px;
+}
+
+.carousel-indicators [data-bs-target].active {
+    width: 15px;
+    height: 15px;
+    background-color: var(--primary-color);
+}
 /* header start */

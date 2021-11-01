@@ -27,9 +27,14 @@
                                 role="button" aria-expanded="false">English
                                 <span href="#" class="header__nav-drop far"></span>
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">English</a></li>
-                                <li><a class="dropdown-item" href="#">Russian</a></li>
+                            <ul class="dropdown-menu ">
+                                <div class="header__nav-menu">
+                                    <li><a class="hedaer__nav-droplink" href="#">English</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="hedaer__nav-droplink dop" href="#">Russian</a></li>
+                                </div>
                             </ul>
                         </li>
                         <li>
@@ -75,31 +80,33 @@
                         <a class="dropdown-toggle  header__feautures-link" data-bs-toggle="dropdown" href="#"
                             role="button" aria-expanded="false">Cell Phones & Tablets
                         </a>
-                        <ul class="dropdown-menu header__feautures-menu">
-                            <div class="d-flex">
+                        <ul class="dropdown-menu">
+                            <div class="d-flex header__feautures-menu">
                                 <div class="header__feautures-drop">
-                                    <li><h1 class="header__feautures-title">Cell Phones</h1></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
+                                    <li><a href="">
+                                            <h1 class="header__feautures-title">Cell Phones</h1>
+                                        </a>
+                                    </li>
+                                    <li><a class="header__feautures-droplink" href="#">Xiaomi</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Apple</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Samsung</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Huawei</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">BQ</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Nokia</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Inovi</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Vivo</a></li>
                                 </div>
                                 <div class="header__feautures-drop">
-                                    <li><h1 class="header__feautures-title">Cell Phones</h1></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
-                                    <li><a class="header__feautures-droplink" href="#">English</a></li>
+                                    <li><a href="">
+                                            <h1 class="header__feautures-title">Tablets</h1>
+                                        </a>
+                                    </li>
+                                    <li><a class="header__feautures-droplink" href="#">Xiaomi</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Apple</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Samsung</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Huawei</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">BQ</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">More....</a></li>
                                 </div>
                             </div>
                         </ul>
@@ -124,8 +131,50 @@
 
 
             <!-- feautures end -->
+            <!-- sliders start -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators align-items-center">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="header__slider-main d-flex align-items-center justify-content-evenly">
+                            <img src="images/Iphones.png" class="d-block" alt="...">
+                            <div class="header__slider-content">
+                                <h1 class="header__slider-title">
+                                    Color your days with small joy
+                                </h1>
+                                <a href="" class="header__slider-link">shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="header__slider-main d-flex align-items-center justify-content-evenly">
+                            <img src="images/Watches.png" class="d-block" alt="...">
+                            <div class="header__slider-content">
+                                <h1 class="header__slider-title">
+                                    Color your days with small joy
+                                </h1>
+                                <a href="" class="header__slider-link">shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- gotta comment due to the fact that it might not work -->
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div> -->
+            </div>
         </div>
-
     </header>
     <!-- header end -->
 

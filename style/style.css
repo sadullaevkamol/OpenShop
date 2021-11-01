@@ -181,7 +181,7 @@
     padding: 5px 12px;
 }
 
-.hedaer__nav-droplink {
+.header__nav-droplink {
     font-size: 14px;
     line-height: 20px;
     /* identical to box height, or 143% */
@@ -190,8 +190,8 @@
     color: var(--primary-color);
 }
 
-.hedaer__nav-link:hover {
-    
+.header__nav-droplink:hover {
+    color: var(--primary-color);
 }
 
 .dop {

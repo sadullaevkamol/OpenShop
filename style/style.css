@@ -27,6 +27,14 @@
 
 
 /* header start */
+.dropdown-toggle .header__nav-drop.show {
+    translate: rotate(180deg);
+}
+
+.header__nav-img::before {
+    content: url('../images/LogoDark.png');
+}
+
 
 .header__nav-bckg {
     background: var(--primary-color);
@@ -43,7 +51,7 @@
     display: none;
 }
 
-.haeder__nav-link {
+.header__nav-link {
     color: var(--secondary-color);
     font-size: 14px;
     line-height: 20px;

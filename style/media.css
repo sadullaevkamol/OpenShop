@@ -17,7 +17,7 @@
     }
 
     .header__nav-link {
-        color: var(--primary-color);
+        color: var(--primary-color) !important;
     }
 
     .header__nav-cart::before,
@@ -44,6 +44,10 @@
 
     .header__search-icon::before {
         background: var(--secondary-color);
+        color: var(--primary-color);
+    }
+
+    .main__iphone-icon::before {
         color: var(--primary-color);
     }
 
@@ -110,6 +114,42 @@
     }
 
     .main__button:hover {
+        color: var(--primary-color);
+    }
+
+    .main__iphone-img {
+        background: radial-gradient(45% 10% at 51% 68%, rgba(255, 255, 255, 0.2) 47%, rgba(49, 49, 49, 0) 100%)
+    }
+    
+    .main__iphone-info {
+        box-shadow: none;
+    }
+
+    .main__iphone-info:hover {
+        box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
+    }
+
+    .main__ps5-img::before {
+        content: url('../images/PalyStationLight.png');
+    }
+
+    .main__ps5-link {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        border: 1px solid white;
+    }
+
+    .main__ps5-link:hover {
+        color: var(--primary-color);
+    }
+
+    .main__iphone-link {
+        color: var(--primary-color);
+        background: var(--secondary-color);
+        border: 1px solid white;
+    }
+
+    .main__iphone-link:hover {
         color: var(--primary-color);
     }
 }

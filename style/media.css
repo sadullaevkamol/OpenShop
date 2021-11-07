@@ -89,4 +89,27 @@
     .header__nav-link:hover {
         color: var(--primary-color);
     }
+
+    .main__content-percent {
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
+    }  
+
+    .main__content-title {
+        color: var(--secondary-color);
+    }
+
+    .main__content-price {
+        color: var(--secondary-color);
+    }
+
+    .main__button {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        border: 1px solid white;
+    }
+
+    .main__button:hover {
+        color: var(--primary-color);
+    }
 }

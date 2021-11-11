@@ -152,4 +152,35 @@
     .main__iphone-link:hover {
         color: var(--primary-color);
     }
+
+    .footer__content {
+        background: black;
+    }
+
+    .footer {
+        background: black;
+    }
+
+    .footer__content-btn {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        border: 1px solid white;
+    }
+
+    .footer__content-link, .footer__content-text {
+        color: var(--primary-color);
+    }
+
+    .footer__content-link:hover {
+        color: var(--primary-color);
+    }
+
+    .footer__content-icon::before {
+        color: var(--primary-color) !important;
+    }
+
+    .main__xbox-link {
+        color: var(--primary-color) !important;
+        background: var(--secondary-color);
+    }
 }

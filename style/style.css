@@ -665,6 +665,9 @@ p {
     letter-spacing: 0.05em;
 }
 
+.main__details-items {
+    margin-bottom: 40px;
+}
 
 .disc {
     list-style-type: disc;
@@ -680,6 +683,7 @@ p {
     letter-spacing: 0.05em;
     width: 190px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .main__details-span::before {
@@ -688,4 +692,51 @@ p {
 
 .main__details-link:first-child {
     margin-right: 30px;
+}
+
+.main__details-link:hover {
+    color: var(--secondary-color);
+}
+
+.main__vr-content {
+    top: 20px;
+    right: 30px;
+}
+
+.main__vr-title {
+    font-size: 48px;
+    line-height: 65px;
+    color: var(--primary-color);
+    font-family: var(--notosans-semibold);
+}
+
+.main__vr-desc {
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--primary-color);
+    max-width: 454px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.main__vr-link {
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: var(--secondary-color);
+    text-align: center;
+    background: var(--primary-color);
+    width: 190px;
+    padding: 12px 0;
+    margin-top: 116px !important;
+    margin: 0 auto;
+}
+.main__vr-link:hover {
+    color: var(--secondary-color);
+}
+
+.main__vr-img {
+    width: 100%;
 }

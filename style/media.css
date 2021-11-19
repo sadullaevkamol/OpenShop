@@ -184,6 +184,22 @@
         color: var(--primary-color) !important;
         background: var(--secondary-color);
     }
+
+    .main__details-link {
+        color: var(--primary-color) !important;
+        background: var(--secondary-color);
+        border: 1px solid white;
+    }
+
+    .main__vr-link {
+        color: var(--primary-color) !important;
+        background: var(--secondary-color);
+        border: 1px solid white;
+    }
+
+    ::marker {
+        color: var(--primary-color);
+    }
 }
 
 /* 1399  */
@@ -251,6 +267,15 @@
     .mart {
         margin-top: 90px;
     }
+
+    .main__details-image {
+        width: 320px;
+    }
+
+    .main__vr-desc {
+        max-width: 370px;
+    }
+
 }
 
 /* 991 */
@@ -303,6 +328,14 @@
     .main__ps5-title {
         margin-top: -11px;
         margin-bottom: 18px;
+    }
+
+    .main__vr-desc {
+        display: none;
+    }
+    
+    .main__vr-link {
+        margin-top: 13px !important;
     }
 }
 
@@ -382,6 +415,15 @@
     .main__xbox-title1 {
         display: none;
     }
+
+    .main__vr-content {
+        right: 0;
+    }
+
+    .main__vr-link {
+        width: 130px;
+        font-size: 14px;
+    }
 }
 
 /* 576 */
@@ -416,6 +458,18 @@
     }
 }
 
+/* 485 */
+
+@media (max-width: 485px) {
+    .main__details-image {
+        width: 280px;
+    }
+
+    .main__vr-title {
+        font-size: 30px;
+    }
+}
+
 /* 450 */
 
 @media (max-width: 450px) {
@@ -443,6 +497,15 @@
     .main__xbox-link {
         width: 130px;
     }
+
+    .main__details-image {
+        width: 220px;
+    }
+
+    .main__details-title {
+        font-size: 23px;
+        line-height: 46px;
+    }
 } 
 
 /* 400 */
@@ -458,6 +521,10 @@
 
     .footer__content-btn {
         padding: 6px 20px;
+    }
+
+    .main__vr-title {
+        line-height: 20px;
     }
 }
 
